@@ -1,0 +1,185 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ebe8e8; 
+    max-width: 780px;
+}
+.container {
+    max-width: 780px;
+    margin: 0 auto; 
+    
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin: auto; padding:0px; }
+
+
+#main {
+    background: url(images/banner.png) no-repeat fixed; 
+    max-width :780px;
+    
+}
+#logo h1 {
+	background : url();
+    text-indent: -9999px;
+}
+ 
+#header {
+    padding-top: 100px; 
+}
+
+div.buttonlayout.img{
+ padding : 30px;
+}
+
+#user{
+	padding-top : 100px;
+}
+
+#butLog{
+	padding-bottom: 150px;
+}
+
+#mail{
+	padding-top : 100px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+}
+
+#submissions{
+	padding-top : 100px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+}
+
+#requests{
+	
+	padding-top : 20px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+	
+	
+
+}
+
+#forms{
+	padding-top : 20px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+}
+
+#update{
+	
+	padding-top : 20px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+}
+
+#logout{
+	
+	
+	padding-top : 20px;
+	padding-bottom : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+	
+}
+
+
+div.loginblock{
+  background: url(images/Template.jpg) ;  
+  background-position : center;
+  background-attachment : fixed;
+  background-repeat: no-repeat;
+  
+  padding-top : 150px;
+  
+  
+  
+}
+
+
+#sendButton{
+	padding-top : 30 px;
+	
+}
+
+
+#profpic{
+	padding-left : 200px;
+}
+
+#news{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+
+
+#ads{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+
+#announce{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+#newsU{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+
+
+#photo{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+}
+
+#calendar{
+	padding-top : 50px;
+	padding-bottom: 50px;
+
+
+}
+#univgifts{
+	padding-top : 100px;
+	padding-bottom: 50px;
+
+}
+
+#event{
+	padding-top : 50px;
+	padding-bottom: 100px;
+
+}
+#media{
+	padding-top : 100px;
+	padding-bottom: 50px;
+
+}
+
+#visitor{
+	padding-top : 50px;
+	padding-bottom: 100px;
+
+}

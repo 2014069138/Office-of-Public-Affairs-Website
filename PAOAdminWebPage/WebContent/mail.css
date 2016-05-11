@@ -1,16 +1,91 @@
 @CHARSET "ISO-8859-1";
-
+<!---own CSS>
 #mail{
 	padding-top: 10px;
 	padding-right: 800px;
 	
 }
 
-
-#homeButton {
-	
-	
+div#sub{
+    padding-right: 500px;
+   padding-bottom : 100px;
 }
+
+div#inbox{
+    padding-top: 200px;
+
+
+}
+
+div#newsup{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+#ads{
+    padding-left : 100px;
+    padding-bottom: 50px;
+  
+
+}
+
+#announce{
+    
+    padding-left : 100px;
+    padding-bottom: 50px;
+    
+}
+
+div#request{
+    padding-right: 500px;
+   padding-bottom : 100px;
+}
+
+div#gift{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+
+div#materials{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+
+div#form{
+    padding-right: 500px;
+   padding-bottom : 100px;
+}
+
+div#media{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+
+div#shoot{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+
+div#calendar{
+    padding-left : 100px;
+    padding-bottom: 100px;
+}
+
+div#udpate{
+   padding-right: 500px;
+   padding-bottom : 100px;
+}
+
+div#gallery{
+    padding-left : 100px;
+    padding-bottom: : 100px;
+
+
+}
+
+
+
+
+<!end of own css>
 
 .mail-box {
     border-collapse: collapse;

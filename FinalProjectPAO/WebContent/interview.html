@@ -15,8 +15,32 @@
    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="script.js"></script>
     <!-- end menu -->
-    
+    <link rel="stylesheet" href="footer.css"  type="text/css" media="all">
 	
+	
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css" />
+  <script>
+		$(document).ready(function () {
+		    var arrDisabledDates = {};
+		   arrDisabledDates[new Date('05/22/2016')] = new Date('05/22/2016');
+		    arrDisabledDates[new Date('05/04/2016')] = new Date('05/04/2016');
+		    arrDisabledDates[new Date('05/16/2016')] = new Date('05/16/2016');
+		   arrDisabledDates[new Date('05/30/2016')] = new Date('05/30/2016');
+		 
+		    $('#txtDate').datepicker({
+		        beforeShowDay: function (dt) {
+		            var bDisable = arrDisabledDates[dt];
+		            if (bDisable)
+		               return [false, '', ''];
+		            else
+		               return [true, '', ''];
+		        }
+		    });
+		});
+  </script>
     
 </head>
 
@@ -24,11 +48,9 @@
 
 	<!-- HEADER -->
 	<div id="header">
-		<div id="logo">
-        	<h3>University of Santo Tomas</h3>
-        	<h1>Office of Public Affairs</h1>
-        </div>
-    </div><!--end header -->
+		
+    </div>
+    <!--end header -->
   
     
       	<div id='cssmenu'>
@@ -70,13 +92,12 @@
 			   </li>
 			   <li class='active has-sub'><a href='#'><span>About us</span></a>
 			   		<ul>
-			         <li><a href='#'><span>The Leadership</span></a></li>
-			         <li><a href='#'><span>The Staff</span></a></li>
-			         <li><a href='#'><span>Contact Us</span></a></li>
-			         <li><a href='#'><span>University Directory</span></a></li>
-			         <li><a href='#'><span>Services</span></a></li>
-			         <li><a href='#'><span>Mission</span></a></li>
-			         <li><a href='#'><span>Vision</span></a></li>
+			         <li><a href='leadership.html'><span>The Leadership/Staffs</span></a></li>
+			         <li><a href='#footer'><span>Contact Us</span></a></li>
+			         <li><a href='#footer2'><span>University Directory</span></a></li>
+			         <li><a href='services.html'><span>Services</span></a></li>
+			         <li><a href='missionvision.html'><span>Mission/Vision</span></a></li>
+			         <li><a href='gallery.html'><span>Gallery</span></a></li>
 			      </ul>
 			   </li>
 			  
@@ -87,17 +108,18 @@
     <!-- CONTENT -->
     <div id="content">
     	<div id="contentForms">
-	    	<form>
+	    	<form><br>
+	    	<img src="images/BANNER2a.jpg" width="1000" height="150">
 				<h1> Schedule for Interview </h1>
 				<p>(Fill out the form to request for an interview)</p><br>
 				
-						<h2>Interviewer's Details</h2>
+						<h2>Interviewer's Details</h2><br>
 						<h4>
 						Name: <input type="text" name="firstname" value="first name"> <input type="text" name="lastname" value="last name"><br><br>
 						Contact Number: <input type="text" name="contactno"><br><br>
 						Email Address:<input type="text" name="emailadd"><br><br>
 						</h4>
-						<h2>Media Platform</h2>
+						<h2>Media Platform</h2><br>
 						<h4>
 						<input type="radio" name="print"> Print<br><br>
 						<input type="radio" name="broadcast"> Broadcast  (TV Program)<br><br>
@@ -106,13 +128,12 @@
 						Designation:  <input type="text" name="designation"><br><br>
 						Interview Topic:<input type="text" name="topic"><br><br>
 						</h4>
-						<h2>Interviewee's Details</h2>
+						<h2>Interviewee's Details</h2><br>
 						<h4>
-						Name: <input type="text" name="firstname1"> <input type="text" name="lastname1"><br><br>
+						Name: <input type="text" name="firstname1"> <input type="text" name="lastname1"><br>
 						Designation:  <input type="text" name="designation1"><br><br>
 						Office: <input type="text" name="office"><br><br>
-						Select Date:  <script type="text/javascript"
-					src="http://www.snaphost.com/jquery/Calendar.aspx"></script>
+						Select Date: <input id="txtDate" type="text"><br><br>
 						Select Time: <br><br>
 						<input type="radio" name="9"> 9am<br>
 						<input type="radio" name="10"> 10am<br>
@@ -131,8 +152,59 @@
 	    	
     
     <!-- FOOTER -->
-    <footer>
-    	Copyright Lee &copy 
-    </footer>
+    <div id="footercontent">
+    	<div class="footer-grids">
+				<div class="footer one">
+					<h3>More About PAO</h3>
+					<p> The Office of Public Affairs was created in 1965 
+					with the primary function of spearheading the publicity
+					 efforts of all faculties, colleges, departments and institutes 
+					 of the University and taking charge of special publications such
+					  as souvenir programs, handbooks, leaflets and other related 
+					  materials. The first director was Prof. Ernesto Franco..</p>
+					<p class="adam">- Office of Public Affairs</p>
+					<div class="clear"></div>
+				</div>
+				<div class="footer two">
+					<h3>Keep Connected</h3>
+					<ul>
+						<li><a class="fb" href="#"><i></i>Like us on Facebook</a></li>
+						<li><a class="fb1" href="#"><i></i>Follow us on Twitter</a></li>
+						<li><a class="fb2" href="#"><i></i>Add us on Google Plus</a></li>
+						
+					</ul>
+					<h3>More links</h3>
+					<ul>
+						<li><a  href="http://www.ust.edu.ph/" name="footer2">UST Official Page</a></li><br>
+						<li><a  href="https://myuste.ust.edu.ph/">MyUSTe Portal</a></li><br>
+						<li><a  href="http://graduateschool.ust.edu.ph/">UST - Graduate School</a></li>
+					</ul>
+				</div>
+				<div class="footer three">
+					<h3>Contact Information</h3>
+					<ul>
+						<li>University of Santo Tomas <span>Espania Sampaloc,</span>Main Buui.  </li>
+						<li>Tel. Nos. Direct line – 731-3544 <br>
+						Local line – 786-1611 local 8315<br>
+                          Telefax – 740- 9727  </li>
+						<li><a href="mailto:info@example.com" name="footer">contact@example.com</a> </li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="copy-right-grids">
+				<div class="copy-left">
+						<p class="footer-gd">© 2016 </p>
+				</div>
+				<div class="copy-right">
+					<ul>
+						<li><a href="#">Company Information</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#" >Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+    </div>
 </body>
 </html>

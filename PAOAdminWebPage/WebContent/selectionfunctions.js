@@ -64,11 +64,22 @@ $(document).ready(function(){
 $(document).ready(function(){
 
 		$("#news").click(function(){
-		window.location="";
+		window.location="SubmissionsNews.html";
 		});
 
 
 	});
+$(document).ready(function(){
+	$("#ads").click(function(){
+		window.location="SubmissionsAds.html";
+	});
+});
+
+$(document).ready(function(){
+	$("#announce").click(function(){
+		window.location="SubmissionsAnnouncements.html";
+	});
+});
 
 $(document).ready(function(){
 		$("#home").click(function(){
@@ -85,4 +96,60 @@ $(document).ready(function(){
 
 		});
 });
+$(document).ready(function(){
+		$("#photo").click(function(){
+			window.location="UpdateGallery.html";
+
+		});
+});
+	
+
+$(document).ready(function(){
+		$("#newsU").click(function(){
+			window.location="UpdateEvents.html";
+
+		});
+});
+	
+
+$(document).ready(function(){
+		$("#calendar").click(function(){
+			window.location="UpdateCalendar.html";
+
+		});
+});
+	
+
+
+$(document).ready(function(){
+		$("#univgifts").click(function(){
+			window.location="RequestGifts.html";
+
+		});
+});
+	
+
+
+
+$(document).ready(function(){
+		$("#event").click(function(){
+			window.location="RequestMaterials.html";
+
+		});
+});
+	
+$(document).ready(function(){
+		$("#media").click(function(){
+			window.location="FormMedia.html";
+
+		});
+});
+	
+$(document).ready(function(){
+		$("#visitor").click(function(){
+			window.location="FormVisitors.html";
+
+		});
+});
+	
 	

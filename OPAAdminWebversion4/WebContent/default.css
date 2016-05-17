@@ -199,7 +199,7 @@ hr
 	font-size: 1.50em;
 	color: #000000;
 	font-weight: 400;
-	float : right;
+
 }
 
 #content .subtitle
@@ -353,4 +353,8 @@ li#logout{
 
 #resourcebox{
 	display:none;
+}
+
+#text{
+	display: none;
 }

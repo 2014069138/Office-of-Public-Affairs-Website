@@ -28,6 +28,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#feedback").click(function(){
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox").slideDown();
 		
 	});
@@ -42,6 +43,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#email").click(function(){
 		$("#inbox").slideUp();
+		$("#text").slideUp();
 		$("#inbox2").slideDown();
 		
 	});
@@ -57,6 +59,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#ads").click(function(){
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox").slideDown();
 		
 	});
@@ -71,6 +74,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#news").click(function(){
 		$("#inbox").slideUp();
+		$("#text").slideUp();
 		$("#inbox2").slideDown();
 		
 	});
@@ -87,6 +91,7 @@ $(document).ready(function(){
 	$("#tokens").click(function(){
 		$("#inbox3").slideUp();
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox").slideDown();
 		
 	});
@@ -102,6 +107,7 @@ $(document).ready(function(){
 	$("#materials").click(function(){
 		$("#inbox").slideUp();
 		$("#inbox3").slideUp();
+		$("#text").slideUp();
 		$("#inbox2").slideDown();
 		
 	});
@@ -117,6 +123,7 @@ $(document).ready(function(){
 	$("#info").click(function(){
 		$("#inbox").slideUp();
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox3").slideDown();
 	
 	});
@@ -135,6 +142,7 @@ $(document).ready(function(){
 		$("#inbox4").slideUp();
 		$("#inbox3").slideUp();
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox").slideDown();
 		
 	});
@@ -151,6 +159,7 @@ $(document).ready(function(){
 		$("#inbox4").slideUp();
 		$("#inbox").slideUp();
 		$("#inbox3").slideUp();
+		$("#text").slideUp();
 		$("#inbox2").slideDown();
 		
 	});
@@ -167,6 +176,7 @@ $(document).ready(function(){
 		$("#inbox4").slideUp();
 		$("#inbox").slideUp();
 		$("#inbox2").slideUp();
+		$("#text").slideUp();
 		$("#inbox3").slideDown();
 	
 	});
@@ -183,6 +193,7 @@ $(document).ready(function(){
 	$("#proposals").click(function(){
 		$("#inbox3").slideUp();
 		$("#inbox").slideUp();
+		$("#text").slideUp();
 		$("#inbox2").slideUp();
 		$("#inbox4").slideDown();
 	});
@@ -203,6 +214,7 @@ $(document).ready(function(){
 		$("#calendarbox").slideUp();
 		$("#resourcebox").slideUp();
 		$("#gallerybox").slideUp();
+		$("#text").slideUp();
 		$("#eventbox").slideDown();
 	});
 });
@@ -212,6 +224,7 @@ $(document).ready(function(){
 		$("#resourcebox").slideUp();
 		$("#eventbox").slideUp();
 		$("#gallerybox").slideUp();
+		$("#text").slideUp();
 		$("#calendarbox").slideDown();
 	});
 });
@@ -221,6 +234,7 @@ $(document).ready(function(){
 		$("#calendarbox").slideUp();
 		$("#eventbox").slideUp();
 		$("#gallerybox").slideUp();
+		$("#text").slideUp();
 		$("#resourcebox").slideDown();
 	});
 });
@@ -230,6 +244,20 @@ $(document).ready(function(){
 		$("#resourcebox").slideUp();
 		$("#calendarbox").slideUp();
 		$("#eventbox").slideUp();
+		$("#text").slideUp();
 		$("#gallerybox").slideDown();
+	});
+});
+
+/*Message*/
+
+$(document).ready(function(){
+	$("#message").click(function(){
+		$("#inbox").slideUp();
+		$("#inbox2").slideUp();
+		$("#inbox3").slideUp();
+		$("#inbox4").slideUp();
+		$("#inbox5").slideUp();
+		$("#text").slideDown();
 	});
 });

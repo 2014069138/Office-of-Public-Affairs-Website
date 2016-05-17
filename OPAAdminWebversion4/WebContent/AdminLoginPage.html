@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="ISO-8859-1">
+	<head>
+        <title>Office of Public Affairs</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+        <script> var message="Not allowed"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
+	</head>
+		
+	<body>
+			<form action="LoginInfo" method ="post" >
+			<div id="main">
+    			<div class="container">
+ 					<div id="header">
+		    			<div id="logo">
+		      		 		 <h1>Logo</h1>
+		    			</div>
+		 		   </div>
+ 		  		 </div>
+ 		   </div>
+			
+  		  <div id="loginblock" align="center">
+			   <br/> 
+   				<h3 id="user">  Username :  <input type="text" value="JenrishChan" name="username" />  </h3><br><br> 
+   				<h3 id="pass">  Password :  <input type="password"   name="password"/> </h3>
+    			<p></p>
+    			<br />    
+           <input type="submit" value="Login" /> 
+           <div id="butLog">
+             
+
+           </div>
+            
+			</div>
+ 		</form>
+	</body>
+</html>

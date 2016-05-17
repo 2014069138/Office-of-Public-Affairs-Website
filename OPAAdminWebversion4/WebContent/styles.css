@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ebe8e8; 
+}
+.container {
+    width: 1080px;
+    margin: 0 auto; 
+    
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin: auto; padding:0px; }
+
+
+#main {
+    background: url(images/banner.png) no-repeat; 
+    height: 150px;
+    background-size: cover;
+    
+}
+#logo h1 {
+	background : url();
+    text-indent: -9999px;
+}
+ 
+#header {
+    padding-top: 100px; 
+}
+
+.buttonlayout{
+ padding : 30px;
+}
+
+#user{
+	padding-top : 100px;
+}
+
+#butLog{
+	padding-bottom: 150px;
+}
+
+
+#loginblock{
+  background-image: url(images/Template.jpg) ;  
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top : 150px;
+  heigth: 100%;
+  width : 100%;
+ }
+
+
+}
